@@ -1,16 +1,10 @@
 ﻿namespace Aula13_Atividade
 {
-    class Administracao
+    abstract class Administracao
     {
-        void Cadastrar()
-        {
+        public abstract void Cadastrar();
 
-        }
-
-        void Remover()
-        {
-
-        }
+        public abstract void Remover();
 
         void Atualizar()
         {
